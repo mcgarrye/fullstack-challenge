@@ -19,7 +19,6 @@ function PizzaSelector({pizza, addHandler, updateHandler, removeHandler}) {
     }
 
     function handleNumber(value) {
-        console.log(value)
         setQuantity(value)
         updateHandler(pizza, value)
     }

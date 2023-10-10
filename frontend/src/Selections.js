@@ -61,8 +61,6 @@ function Selections({pizzas, setOrdering}) {
         }
       };
 
-    console.log(pizzas)
-
     return (
         <div>
             <form onSubmit={handleSubmit}>
